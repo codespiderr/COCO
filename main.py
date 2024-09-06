@@ -434,7 +434,7 @@ while game_loop:  # forever game loop
     debugger(player_obj.pos, 10, 10, red)  # debugging text
     debugger(round(clock.get_fps(), 2), 10, 40, red)
     debugger(game_tile_obj.offset_x_add, 10, 70, "red")
-    debugger(game_tile_obj.offset_y_add, 10, 100, "red")
+    debugger(game_tile_obj.offset_y_add, 10, 100, "grey")
 
     pygame.display.update()  # screen updater
     game_screen.fill("white")
